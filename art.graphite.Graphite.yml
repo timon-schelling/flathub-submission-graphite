@@ -1,0 +1,22 @@
+app-id: art.graphite.Graphite
+command: graphite
+runtime: org.freedesktop.Platform
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+finish-args:
+- --device=dri
+- --share=ipc
+- --socket=wayland
+- --socket=fallback-x11
+- --share=network
+modules:
+- name: app
+  buildsystem: simple
+  sources:
+  - path: /nix/store/jdwjbhlj6b3f8qrm8wvk8fizncjziqiv-graphite-bundle.tar
+    strip-components: 0
+    type: archive
+  build-commands:
+  - mkdir -p /app
+  - cp -r ./* /app/
+  - chmod +x /app/bin/*

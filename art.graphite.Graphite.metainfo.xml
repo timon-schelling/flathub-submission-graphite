@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>art.graphite.Graphite</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>Graphite</name>
+  <summary>Free, open-source vector and raster graphics editor with a nondestructive node-based workflow</summary>
+  <description>
+    <p>Graphite is a free, open source vector graphics editor and animation engine that combines layer-based compositing with node-based generative design for a fully nondestructive editing workflow. The software is available in alpha and continues to evolve into an all‑in‑one creative suite encompassing vector editing, raster manipulation, animation, photo editing, motion graphics, digital painting, desktop publishing and VFX compositing.</p>
+    <p>The Graphene engine at its core represents artwork as a node graph, allowing artists to iterate rapidly by adjusting parameters rather than editing individual elements. Graphite is designed to be a professional desktop application while also being accessible as an offline web app. It runs locally and privately on your hardware using high‑performance WebAssembly and WebGPU technology and is developed by Graphite Labs, LLC.</p>
+  </description>
+  <developer id="art.graphite">
+    <name>Graphite Labs, LLC</name>
+  </developer>
+  <url type="homepage">https://graphite.art/</url>
+  <url type="bugtracker">https://github.com/GraphiteEditor/Graphite/issues</url>
+  <url type="faq">https://graphite.art/about/</url>
+  <url type="donation">https://graphite.art/donate/</url>
+  <launchable type="desktop-id">art.graphite.Graphite.desktop</launchable>
+  <provides>
+    <binary>graphite</binary>
+  </provides>
+  <keywords>
+    <keyword>vector</keyword>
+    <keyword>node</keyword>
+    <keyword>procedural</keyword>
+    <keyword>animation</keyword>
+    <keyword>graphics</keyword>
+  </keywords>
+</component>
